@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+        <div id="menu">
+            <ul id="links">
+                <li class="link"><a href="index.html" style="font-weight: 800;">Pagina de pornire</a></li>
+                <li class="link"><a href="stiinta.html">Ştiinţă</a></li>
+                <li class="link"><a href="">Tehnologie</a></li>
+                <li class="link"><a href="">Inginerie</a></li>
+                <li class="link"><a href="">Artă</a></li>
+                <li class="link"><a href="matematica.html">Matematică</a></li>
+            </ul>
+        </div>
+        <div id="button">
+            <ul id="lines">
+            <li class="line"></li>
+            <li class="line"></li>
+            <li class="line"></li>
+            </ul>
+        </div>
+        <div id="headerSTEAM">
+            <a href="stiinta.html">S</a>
+            <a href="">T</a>
+            <a href="">E</a>
+            <a href="">A</a>
+            <a href="matematica.html">M</a>
+        </div>
+    </nav>
+
+    <div id="heroMatematica">
+      <a href="#mainMatematica"><h1>Matematica</h1></a>
+    </div>
+
+    
+    <section id="mainMatematica">
+      
+        <div class="slide">
+            <div class="slideConent">
+                <div class="slideText">
+                    <span style="font-size: 30px;">Pentru crearea unei oglinzi în condiții casnice avem nevoie de următoarele materiale :</span>
+                    <ul>
+                        <li>Soluție de amoniac - 34 lei 90 bani</li>
+                        <li>Sodă caustică - 70 lei</li>
+                        <li>Glucoză - 62 lei 60 bani</li>
+                        <li>Nitrat de argint - 6 250 lei</li>
+                        <li>Sticlă - 40 lei </li>
+                    </ul>
+                    <span style="font-size: 30px">Cheltuielile totale obținute sunt de 6 457 lei 50 bani</span>
+                </div>
+                <div class="slideSideContent">
+                    <img src="/images/matematica/og1.png" alt="" style="height:500px">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slideGrid">
+                <img src="images/matematica/og2.png" alt="">
+                <img src="images/matematica/og3.png" alt="">
+                <img src="images/matematica/og4.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            
+                <div class="slideText">
+                    <p style="font-size: 30px;">Prețul oglinzilor pe piața diferă în funcție de mărimea oglinzii și modul în care au fost făcută.  Comparând aceste prețuri cu cheltuielile obținute în urma creării oglinzii  în condiții casnice , înțelegem că este mai optimal să procurăm oglinda deja făcută .</p>
+                </div>
+            
+        </div>
+
+        <div class="slide">
+            <div class="slideText">
+                <span>Problemă:</span>
+                <p>Ana studiază proprietățile oglinzii plane în timpul lecției de fizica.Ea plasează o radiera în fața oglinzii, apoi o deplasează la distanța de 20 cm față de oglindă.Cu cât s-a mărit distanța între imagine și oglindă ? Cu cât s-a mărit distanța între radieră și imaginea acesteia?</p>
+                <span>Rezolvare:</span>
+                <p>Una dintre caracteristicile oglinzii plane este că distanța de la imagine la suprafața oglinzii este întotdeauna egală cu distanța de la obiect la suprafața oglinzii, întrucât imaginea și obiectul sunt simetrice.Deci, la depărtarea de 20cm a obiectului și imaginea se va obține la 20cm, iar distanța între radieră și imagine se va mări de doua ori.</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slideText">
+                <span>Problemă:</span>
+                <p>Ana studiază proprietățile oglinzii plane în timpul lecției de fizica.Ea plasează o radiera în fața oglinzii, apoi o deplasează la distanța de 20 cm față de oglindă.Cu cât s-a mărit distanța între imagine și oglindă ? Cu cât s-a mărit distanța între radieră și imaginea acesteia?</p>
+                <span>Rezolvare:</span>
+                <p>Una dintre caracteristicile oglinzii plane este că distanța de la imagine la suprafața oglinzii este întotdeauna egală cu distanța de la obiect la suprafața oglinzii, întrucât imaginea și obiectul sunt simetrice.Deci, la depărtarea de 20cm a obiectului și imaginea se va obține la 20cm, iar distanța între radieră și imagine se va mări de doua ori.</p>
+                <p>hoglinda=(hom)/2 = 0.9 m.</p>
+                <p>hp=(h)/2 = 0.85 m.</p>
+                <span>Marginea inferioară a oglinzii trebuie așezată față de podea in punctul P, astfel încât:</span>
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
