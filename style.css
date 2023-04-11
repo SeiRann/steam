@@ -458,3 +458,14 @@ nav{
     align-items: center;
     justify-content: center;
 }
+
+.slideGrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.slideGrid img{
+    width: 300px;
+    border-radius: 5px;
+}
