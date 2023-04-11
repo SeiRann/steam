@@ -220,6 +220,7 @@ nav{
     align-items: center;
     justify-content: center;
     height: 40vh;
+    background-color: #6c6e52;
 }
 
 #heroStiinta a{
@@ -290,6 +291,7 @@ nav{
     justify-content: center;
     gap: 10px;
     font-size: 18px;
+    margin-left: 30px;
 }
 
 .historyContent{
@@ -332,4 +334,86 @@ nav{
     width: 225px;
     
     object-fit: cover;
+}
+
+.slide{
+    height: 700px;
+    width: 1000px;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--beige);
+}
+
+.slide span{
+    color: var(--orange);
+}
+
+.slideConent{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   width: 800px;
+   height: 600px;
+}
+
+.slideText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+    width: 500px;
+}
+
+.slide h1{
+    font-size: 60px;
+    color: var(--orange);
+    padding: 30px;
+}
+
+.slideSideContent h1{
+    font-size: 30px;
+    padding:3px;
+}
+
+.slideSideContent img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.slideSideContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    gap: 5px;
+}
+
+
+.slideText img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#slideContentTweak{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slideContentTweak a{
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 20px;
+}
+
+#slideContentTweak p{
+    font-size:24px;
 }
