@@ -96,6 +96,7 @@ nav{
     background-color: var(--black);
     transition: 0.5s;
     border-top: solid 3px #2e2e2e;
+    border-right: solid 3px #2e2e2e;
 }
 
 
@@ -416,4 +417,9 @@ nav{
 
 #slideContentTweak p{
     font-size:24px;
+}
+
+.slideConent a{
+    text-decoration: none;
+    color: var(--orange);
 }
