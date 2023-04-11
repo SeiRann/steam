@@ -213,3 +213,123 @@ nav{
     list-style-type:square;
     color: #f887419a;
 }
+
+#heroStiinta{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+#heroStiinta a{
+    text-decoration: none;
+}
+
+#heroStiinta h1{
+    color: var(--beige);
+    font-size: 70px;
+}
+
+#mainStiinta{
+    min-height: 100vh;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+#cuprins{
+    font-size: 30px;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2e2e;
+    gap: 70px;
+    border-radius: 5px;
+    color: var(--beige);
+}
+
+#cuprins h1{
+    font-size: 80px;
+    color: var(--orange);
+}
+
+#cuprinsList{
+    display: block;
+    flex-direction: row;
+}
+
+.indent{
+    margin-left: 20px;
+}
+
+.history{
+    height: 700px;
+    width: 1000px;
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--beige);
+    border-radius: 5px;
+}
+
+.historyText{
+    width: 45%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.historyContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.historyImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    gap: 10px;
+}
+.historyImg img{
+    height: 150px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.history h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: var(--orange);
+}
+
+.historyImg1{
+    display: gird;
+    grid-template-columns: repeat(2,1fr);
+    height: 500px;
+    width: 550px;
+
+}
+
+.historyImg1 img{
+    width: 225px;
+    
+    object-fit: cover;
+}
