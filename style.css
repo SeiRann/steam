@@ -556,4 +556,30 @@ nav{
 }
 
 
+#specialHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
+#specialHeader img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.slide table,td,th{
+    border: 3px solid var(--beige);
+    
+}
+
+.slide td{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.slide th{
+    color: var(--orange);
+    font-size: 18px;
+}
